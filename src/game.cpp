@@ -16,7 +16,6 @@ void game::makeFrame() {
 
 // read and print the frame
 void game::readFrame() {
-  std::vector<std::string>::const_iterator iter;
   for (int i = 0; i < 3; ++i) {
     for (int j = 0; j < 3; ++j) {
       std::cout << frame[i][j] << "  ";
@@ -254,6 +253,10 @@ void multiPlayer() {
     }
   }
 }
+
+/*
+AI player version
+ */
 
 void aiPlayer() {
   return;
