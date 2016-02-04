@@ -14,5 +14,6 @@ From command line -
 2. ./tictactoe to play the game from the command line
 3. make clean to remove the binary
 
+Currently working on the AI version using MiniMax algorithm. 
 I plan to implement the graphics version of the game using SFML library.
 But that's for the future.
